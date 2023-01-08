@@ -1,0 +1,312 @@
+.body {
+    background-image: url(../images/Rectangle2.png);
+    height: 980px;
+    background-repeat: no-repeat;
+    width: 1920px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 129px;
+}
+
+.logo {
+    margin: 29px 0 0 49px;
+    width: 290px;
+    height: 100px;
+}
+
+.menu {
+    margin: 29px 0 0 49px;
+    display: flex;
+    width: 613px;
+    align-items: center;
+}
+
+.menu {
+    font-family: 'Comfortaa', Arial, cursive;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+}
+
+.home,
+.about,
+.contact,
+.help:hover {
+    color: #FFFFFF;
+
+}
+
+.home,
+.about,
+.contact,
+.help:link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.home,
+.about,
+.contact,
+.help:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.home {
+    margin-right: 33px;
+}
+
+.about {
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+.contact {
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+.help {
+    margin-left: 33px;
+    margin-right: 29px;
+}
+
+.vector {
+    width: 24px;
+    height: 24px;
+    margin-left: 29px;
+    margin-right: 69px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    height: 840px;
+}
+
+.heading_text {
+    font-family: 'Comfortaa', Arial, cursive;
+    font-size: 120px;
+    color: white;
+    text-align: center;
+    margin-bottom: 33px;
+    margin: 0 0 33px 0;
+}
+
+.tickets {
+    color: #F5BD02;
+}
+
+.heading2 {
+    font-family: 'Comfortaa', Arial, cursive;
+    font-weight: 400;
+    font-size: 72px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 33px 0 0 0;
+}
+
+.search_title {
+    font-family: 'Comfortaa', Arial, cursive;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+    text-align: center;
+}
+
+.search_text {
+    font-family: 'Comfortaa', Arial, cursive;
+    color: white;
+    line-height: 18px;
+    display: flex;
+    align-self: center;
+}
+
+.search_line {
+    display: flex;
+    align-self: center;
+    width: 710px;
+    height: 69px;
+    background: #FFFFFF;
+    opacity: 0.4;
+    border-radius: 120px;
+}
+
+.subtitle {
+    height: 205px;
+    display: flex;
+    font-family: 'Comfortaa', Arial, cursive;
+    margin: 0;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    width: 584px;
+    background-color: #fef2cc;
+}
+
+.price_text {
+    width: 116px;
+    height: 71px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 71px;
+    margin: 57px 88px 0 380px;
+    color: #000000;
+}
+
+.price_text_2 {
+    width: 69px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    margin: 3px 111px 0 404px;
+    color: #000000;
+}
+
+.membership {
+    display: flex;
+    background-color: #F5BD02;
+    width: 1336px;
+}
+
+.mini_logo {
+    width: 44.11;
+    height: 92.93px;
+    margin: 56px 32.5px 0 83px
+}
+
+.membership_title {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 64px 127.5px 0 32.5px;
+}
+
+.membership_subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    margin: 10px 127.5px 0 32.5px;
+}
+
+.button {
+    width: 199px;
+    height: 55px;
+    background: #000000;
+    border-radius: 60px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    margin: 75px 0 0 127.5px;
+}
+
+.block_3 {
+    height: 1100px;
+    background-color: #000000;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.block_3_elements {
+    display: inline-block;
+
+}
+
+.block_3_elements_1 {
+    border: 2px solid red;
+    height: 47px;
+    width: 47px;
+    }
+
+.block_3_elements_2 {
+    border: 2px solid red;
+    height: 47px;
+    width: 41px;
+    }
+
+.block_3_elements_3 {
+    border: 2px solid red;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.block_3_elements_4 {
+    border: 2px solid red;
+    height: 43px;
+    width: 47px;   
+}
+
+.block_3_elements_5 {
+    border: 2px solid red;
+    height: 21px;
+    width: 21px;    
+}
+
+.block_3_text {
+    font-family: 'Comfortaa', Arial, cursive;
+    color: white;    
+    margin: 128px 0 0 824px;
+    width: 272px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;    
+}
+
+.text_color {
+    color:#F5BD02;
+}
+
+.block_3_text_shadow {
+    font-family: 'Comfortaa', Arial, cursive;
+    color: white;
+    margin: -95px 0 0 754px;
+    width: 412px;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 107px;
+    text-transform: uppercase;
+    opacity: 0.09;
+}
+
+.block_3_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1320px;
+    height: 699px;
+    margin: 81px 0 0 300px;
+}
+
+.block_3_image_1,
+.block_3_image_2,
+.block_3_image_3,
+.block_4_image_4,
+.block_3_image_5,
+.block_3_image_6,
+.block_3_image_7,
+.block_3_image_8 {
+    width: 324px;
+    height: 346px;
+}
+
