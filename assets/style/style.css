@@ -1,5 +1,5 @@
 .body {
-    background-image: url(../images/Rectangle2.png);
+    background-image: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.1) 0%, rgba(6, 9, 27, 0.676042) 0.01%, #06091B 130%), url(../images/Rectangle2.png);
     height: 980px;
     background-repeat: no-repeat;
     width: 1920px;
@@ -90,10 +90,10 @@
 .heading_text {
     font-family: 'Comfortaa', Arial, cursive;
     font-size: 120px;
+    height: 236px;
     color: white;
     text-align: center;
-    margin-bottom: 33px;
-    margin: 0 0 33px 0;
+    margin: 199px 318px 33px;
 }
 
 .tickets {
@@ -122,22 +122,16 @@
     text-align: center;
 }
 
-.search_text {
-    font-family: 'Comfortaa', Arial, cursive;
-    color: white;
-    line-height: 18px;
-    display: flex;
-    align-self: center;
-}
-
 .search_line {
-    display: flex;
-    align-self: center;
     width: 710px;
     height: 69px;
     background: #FFFFFF;
-    opacity: 0.4;
+    opacity: 0.4;   
+    font-size: 16px;
     border-radius: 120px;
+    border: none;
+    font-family: 'Comfortaa', Arial, cursive;   
+    line-height: 18px;
 }
 
 .subtitle {
@@ -227,40 +221,44 @@
     flex-direction: column;
 }
 
-.block_3_elements {
-    display: inline-block;
-
-}
-
 .block_3_elements_1 {
-    border: 2px solid red;
+    position: absolute;
     height: 47px;
     width: 47px;
+    left: 137px;
+    top: 1228px;
     }
 
 .block_3_elements_2 {
-    border: 2px solid red;
+    position: absolute;
     height: 47px;
     width: 41px;
+    left: 1473px;
+    top: 1309px;
     }
 
 .block_3_elements_3 {
-    border: 2px solid red;
+    position: absolute;
     height: 40px;
     width: 40px;
-    
+    left: 201px;
+    top: 1746px;    
 }
 
 .block_3_elements_4 {
-    border: 2px solid red;
+    position: absolute;    
     height: 43px;
-    width: 47px;   
+    width: 47px;
+    left: 1700px;
+    top: 1723px;   
 }
 
 .block_3_elements_5 {
-    border: 2px solid red;
+    position: absolute;    
     height: 21px;
-    width: 21px;    
+    width: 21px;
+    left: 1542px;
+    top: 2195px;    
 }
 
 .block_3_text {
@@ -309,4 +307,3 @@
     width: 324px;
     height: 346px;
 }
-
